@@ -7,7 +7,7 @@ The widget provides some default buttons for navigation.
 * [Appearance](#appearance)
 * [Usage](#usage)
 * [Features](#features)
-* [Integration](#Integration)
+* [Integration](#integration)
 * [References](#references)
 
 ## Appearance
