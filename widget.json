@@ -1,13 +1,16 @@
 {
    "name": "AxCommandBarWidget",
    "description": "Allows a user to trigger actions (such as navigation) using graphical buttons.",
+
    "integration": {
       "technology": "angular",
       "type": "widget"
    },
+
    "controls": [
-      "laxar_uikit/controls/button_list"
+      "laxar-button-list-control"
    ],
+
    "features": {
       "$schema": "http://json-schema.org/draft-04/schema#",
       "type": "object",
