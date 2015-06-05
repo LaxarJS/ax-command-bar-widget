@@ -414,11 +414,11 @@ define( [
                action = event.action;
                actionEvent = event;
                actionEventName = meta.name;
-               testBed_.scope.eventBus.publish( 'willTakeAction.' + action, { sender: 'spec' } );
+               testBed_.scope.eventBus.publish( 'willTakeAction.' + action, { options: { sender: 'spec' } } );
                jasmine.Clock.tick( 0 );
             } );
             signalActionFinished = function() {
-               testBed_.scope.eventBus.publish( 'didTakeAction.' + action, { sender: 'spec' } );
+               testBed_.scope.eventBus.publish( 'didTakeAction.' + action, { options: { sender: 'spec' } } );
                jasmine.Clock.tick( 0 );
             };
             testBed_.scope.handleButtonClicked( nextButton );
