@@ -2,6 +2,9 @@
 
 ## Last Changes
 
+
+## v2.1.0
+
 - [#4](https://github.com/LaxarJS/ax-command-bar-widget/issues/4): updated LaxarJS dependencies and updated contribution information
 - [#2](https://github.com/LaxarJS/ax-command-bar-widget/issues/2): Tests: Fixed deprecated event style
 
