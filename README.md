@@ -1,4 +1,4 @@
-# AxCommandBarWidget
+# AxCommandBarWidget [![Build Status](https://travis-ci.org/LaxarJS/ax-command-bar-widget.svg?branch=master)](https://travis-ci.org/LaxarJS/ax-command-bar-widget)
 
 Allows a user to trigger actions (such as navigation) using graphical buttons.
 The widget provides some default buttons for navigation.
