@@ -2,6 +2,8 @@
 
 ## Last Changes
 
+- [#7](https://github.com/LaxarJS/ax-command-bar-widget/issues/7): Added a `.travis.yml` for open continuous integration
+
 
 ## v2.1.0
 
