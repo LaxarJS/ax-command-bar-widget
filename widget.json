@@ -1,5 +1,5 @@
 {
-   "name": "AxCommandBarWidget",
+   "name": "ax-command-bar-widget",
    "description": "Allows a user to trigger actions (such as navigation) using graphical buttons.",
 
    "integration": {

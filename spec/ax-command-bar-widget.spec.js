@@ -4,17 +4,18 @@
  * http://laxarjs.org/license
  */
 define( [
+   'json!../widget.json',
    '../ax-command-bar-widget',
    'laxar/laxar_testing',
    './fixtures'
-], function( navigator, ax, testData ) {
+], function( descriptor, navigator, ax, testData ) {
    'use strict';
 
    var testBed_;
 
    ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-   describe( 'An AxCommandBarWidget', function() {
+   describe( 'An ax-command-bar-widget', function() {
 
       beforeEach( function setup() {
          testBed_ = testBedAfterDidNavigate( this, { buttons: [] } );
@@ -564,7 +565,7 @@ define( [
    function testBedAfterDidNavigate( self, features ) {
       addButtonMatchers( self );
 
-      var testBed = ax.testing.portalMocksAngular.createControllerTestBed( 'laxarjs/ax-command-bar-widget' );
+      var testBed = ax.testing.portalMocksAngular.createControllerTestBed( descriptor );
       testBed.featuresMock = features;
 
       testBed.useWidgetJson();
