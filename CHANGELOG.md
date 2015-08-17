@@ -2,6 +2,9 @@
 
 ## Last Changes
 
+
+## v2.2.0
+
 - [#5](https://github.com/LaxarJS/ax-command-bar-widget/issues/5): Support AMD references (and installation through bower)
 - [#6](https://github.com/LaxarJS/ax-command-bar-widget/issues/6): Added a `.travis.yml` for open continuous integration
 
