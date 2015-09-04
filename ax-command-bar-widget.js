@@ -176,6 +176,8 @@ define( [
             var sizeClass = BUTTON_CLASS_PREFIX + CONFIG_TO_BOOTSTRAP_SIZE_MAP[ button.size ];
             button.classes[ sizeClass ] = true;
          }
+         
+         button.classes[ 'ax-action-' + button.action ] = true;
       }
 
       ////////////////////////////////////////////////////////////////////////////////////////////////////////
