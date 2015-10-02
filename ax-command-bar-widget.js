@@ -98,9 +98,9 @@ define( [
                return buttonA.index - buttonB.index;
             } );
 
-         var columnWidth = $scope.features.areas[ areaName ].columnWidth || null;
+         var columnWidth = $scope.features.areas[ areaName ].columnWidth;
          $scope.model.areaClasses[ areaName ] =
-            ( columnWidth === null ) ? [] : [ GRID_COLUMN_CLASS_PREFIX + columnWidth ];
+            typeof( columnWidth ) !== 'number' ? [] : [ GRID_COLUMN_CLASS_PREFIX + columnWidth ];
       } );
 
       ////////////////////////////////////////////////////////////////////////////////////////////////////////
