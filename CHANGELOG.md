@@ -2,6 +2,8 @@
 
 ## Last Changes
 
+- [#7](https://github.com/LaxarJS/ax-command-bar-widget/issues/7): styling: fix support for columnWidth: 0
+
 
 ## v2.2.0
 
