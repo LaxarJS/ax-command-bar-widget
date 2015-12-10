@@ -2,7 +2,10 @@
 
 ## Last Changes
 
-- [#9](https://github.com/LaxarJS/ax-accordion-widget/issues/9): Expanded the widget definition
+
+## v2.3.0
+
+- [#9](https://github.com/LaxarJS/ax-command-bar-widget/issues/9): Expanded the widget definition
 - [#7](https://github.com/LaxarJS/ax-command-bar-widget/issues/7): styling: fix support for columnWidth: 0
 
 
