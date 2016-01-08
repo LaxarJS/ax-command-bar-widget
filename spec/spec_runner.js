@@ -14,4 +14,3 @@
       jasmineMajorVersion: 2
    };
 } )( this );
-

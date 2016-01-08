@@ -7,10 +7,10 @@ define( [
    'json!../widget.json',
    'laxar-mocks',
    'laxar',
-   'q_mock',
+   'angular-mocks',
    './helpers/spec_helper',
    './fixtures'
-], function( descriptor, axMocks, ax, qMock, buttonMatchers, testData ) {
+], function( descriptor, axMocks, ax, ngMocks, buttonMatchers, testData ) {
    'use strict';
 
    var widgetEventBus;
@@ -454,17 +454,16 @@ define( [
 
          describe( 'and the action is canceled', function() {
 
-            beforeEach( function() {
+            beforeEach( ngMocks.inject( function( $q ) {
                signalActionFinished();
-               widgetEventBus.publishAndGatherReplies.and.callFake( qMock.reject );
+               widgetEventBus.publishAndGatherReplies.and.callFake( $q.reject );
                widgetScope.handleButtonClicked( nextButton );
-            } );
+            } ) );
 
             it( 'resets the button state', function() {
                expect( nextButton.classes[ 'ax-active' ] ).toBe( true );
-               testEventBus.flush();
-               // ToDo: following test should not fail
-               //expect( nextButton.classes[ 'ax-active' ] ).toBe( false );
+               widgetScope.$apply();
+               expect( nextButton.classes[ 'ax-active' ] ).toBe( false );
             } );
 
          } );
