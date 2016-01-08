@@ -124,7 +124,6 @@ define( [
          function reset() {
             button.classes[ BUTTON_CLASS_ACTIVE ] = false;
          }
-
          $scope.eventBus.publishAndGatherReplies( 'takeActionRequest.' + button.action, {
             action: button.action,
             anchorDomElement: button.id
