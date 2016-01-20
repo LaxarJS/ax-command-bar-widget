@@ -2,6 +2,9 @@
 
 ## Last Changes
 
+
+## v2.4.0
+
 - [#10](https://github.com/LaxarJS/ax-command-bar-widget/issues/10): Use laxar-mocks instead of laxar-testing now
 
 
