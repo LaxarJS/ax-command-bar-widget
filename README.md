@@ -1,6 +1,6 @@
-# ax-command-bar-widget [![Build Status](https://travis-ci.org/LaxarJS/ax-command-bar-widget.svg?branch=master)](https://travis-ci.org/LaxarJS/ax-command-bar-widget)
+# laxar-command-bar-widget [![Build Status](https://travis-ci.org/LaxarJS/ax-command-bar-widget.svg?branch=master)](https://travis-ci.org/LaxarJS/ax-command-bar-widget)
 
-Allows a user to trigger actions (such as navigation) using graphical buttons.
+AngularJS v1 widget that allows a user to trigger actions (such as navigation) using graphical buttons.
 The widget provides some default buttons for navigation.
 
 ## Content
@@ -11,9 +11,9 @@ The widget provides some default buttons for navigation.
 * [References](#references)
 
 ## Appearance
-![Illustration of the ax-command-bar-widget](docs/img/example_1.png)
+![Illustration of the laxar-command-bar-widget](docs/img/example_1.png)
 
-An ax-command-bar-widget with two default buttons.
+A laxar-command-bar-widget with two default buttons.
 
 
 ## Usage
@@ -23,7 +23,7 @@ For installation instruction take a look at the [LaxarJS documentation](https://
 ### Configuration Example
 ```json
 {
-   "widget": "laxarjs/ax-command-bar-widget",
+   "widget": "laxar-command-bar-widget",
    "features": {
       "cancel": {
          "enabled": true,
@@ -36,7 +36,7 @@ For installation instruction take a look at the [LaxarJS documentation](https://
    }
 }
 ```
-Use this configuration on a page to get a ax-command-bar-widget instance with the two default buttons "ok" and "cancel".
+Use this configuration on a page to get a laxar-command-bar-widget instance with the two default buttons "ok" and "cancel".
 
 For full configuration options refer to the [widget.json](widget.json).
 
