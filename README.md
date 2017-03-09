@@ -1,9 +1,11 @@
-# ax-command-bar-widget [![Build Status](https://travis-ci.org/LaxarJS/ax-command-bar-widget.svg?branch=master)](https://travis-ci.org/LaxarJS/ax-command-bar-widget)
+# laxar-command-bar-widget [![Build Status](https://travis-ci.org/LaxarJS/ax-command-bar-widget.svg?branch=master)](https://travis-ci.org/LaxarJS/ax-command-bar-widget)
 
-Allows a user to trigger actions (such as navigation) using graphical buttons.
+AngularJS v1 widget that allows a user to trigger actions (such as navigation) using graphical buttons.
 The widget provides some default buttons for navigation.
 
+
 ## Content
+
 * [Appearance](#appearance)
 * [Usage](#usage)
 * [Features](#features)
@@ -11,19 +13,29 @@ The widget provides some default buttons for navigation.
 * [References](#references)
 
 ## Appearance
-![Illustration of the ax-command-bar-widget](docs/img/example_1.png)
 
-An ax-command-bar-widget with two default buttons.
+![Illustration of the laxar-command-bar-widget](docs/img/example_1.png)
+
+A laxar-command-bar-widget with two default buttons.
 
 
 ## Usage
+
+
 ### Installation
-For installation instruction take a look at the [LaxarJS documentation](https://github.com/LaxarJS/laxar/blob/master/docs/manuals/installing_widgets.md).
+
+In a LaxarJS v2 installation with AngularJS v1 adapter, simply run:
+
+```console
+npm install laxar-command-bar-widget
+```
+
 
 ### Configuration Example
+
 ```json
 {
-   "widget": "laxarjs/ax-command-bar-widget",
+   "widget": "laxar-command-bar-widget",
    "features": {
       "cancel": {
          "enabled": true,
@@ -36,12 +48,15 @@ For installation instruction take a look at the [LaxarJS documentation](https://
    }
 }
 ```
-Use this configuration on a page to get a ax-command-bar-widget instance with the two default buttons "ok" and "cancel".
+Use this configuration on a page to get a laxar-command-bar-widget instance with the two default buttons "ok" and "cancel".
 
 For full configuration options refer to the [widget.json](widget.json).
 
+
 ## Features
+
 ### 1. Display a Button Bar (areas)
+
 *R1.1* The widget MUST display a button bar in a row with three anchors (left, center, right) for the buttons.
 
 *R1.2* It MUST be possible to configure a button list for each of the anchors.
@@ -59,7 +74,9 @@ The position requirement (left, center, right) of the button bars is OPTIONAL in
 *R1.6* The widget MUST allow a configuration of an absolute width in grid columns for a button bar.
 This configuration allows a better handling of special cases of partitioning of the buttons.
 
+
 ### 2. Display Configurable Buttons (buttons)
+
 *R2.1* It MUST be possible to enable or disable each button by configuration.
 
 *R2.2* Each button text MUST be configurable. The configured text MUST be interpreted as internationalized HTML content.
@@ -86,35 +103,48 @@ When a button or its associated `access key` is pressed, the widget MUST publish
 
 
 ### 3. Display Default Buttons (previous, next, finish, ok, cancel, close, info, help, print, apply, yes, no)
+
 *R3.1* The widget MUST support default buttons.
 The default buttons MUST act like the other custom buttons, but have default values for the configuration such as the label.
 
 *R3.2* A default button with the same index as a custom button MUST be displayed before the custom button.
 
+
 ### 4. Layout (layout)
+
 *R4.1* In default configuration the buttons are rendered side by side (horizontally).
 It MUST be configurable to display the buttons below each other (vertically).
 
+
 ### 5. Support Internationalization (i18n)
+
 *R5.1* The widget MUST allow the configuration of a *locale* as described in the documentation to [LaxarJS i18n].
 When displaying internationalized content, the widget MUST use the current language tag of the locale.
 
+
 ## Integration
+
 ### Patterns
+
 The widget supports the following event patterns as specified by the [LaxarJS Patterns](#references) document.
 
+
 #### Actions
+
 * Action: `*.action`
    * Role: Sender
    * Description: Trigger this action if a button or a access key is pressed.
 
+
 #### Flags
+
 * Flag: `*.omitOn|hideOn|disableOn|busyOn`
    * Role: Receiver
    * Description: Change a button (hide, disable, omit or display a busy icon)
 
 
 ## References
+
 The following resources are useful or necessary for the understanding of this document.
 The links refer to the latest version of the documentation.
 Refer to the [bower.json](bower.json) for the specific version that is normative for this document.

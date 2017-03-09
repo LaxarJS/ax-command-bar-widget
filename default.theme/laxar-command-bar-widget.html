@@ -1,0 +1,6 @@
+<div ng-repeat="areaName in model.areaOrder"
+   class="ax-local-{{ areaName }}-area {{ model.layout }}"
+   ng-class=":: model.areaClasses[ areaName ]"
+   ax-button-list="model.areas[ areaName ]"
+   ax-button-list-click="handleButtonClicked( button )">
+</div>
