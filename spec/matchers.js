@@ -7,8 +7,7 @@ define( [], function() {
    'use strict';
 
    return {
-
-      toContainButtonWithAction: function( util, customEqualityTesters ) {
+      toContainButtonWithAction( util, customEqualityTesters ) {
          return {
             compare: function( actual, expected ) {
                var result = {};
@@ -29,7 +28,7 @@ define( [], function() {
             }
          };
       },
-      toHaveAction: function( util, customEqualityTesters ) {
+      toHaveAction( util, customEqualityTesters ) {
          return {
             compare: function( actual, expected ) {
                var result = {};
