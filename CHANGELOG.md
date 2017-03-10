@@ -2,6 +2,9 @@
 
 ## Last Changes
 
+
+## v3.0.0-alpha.0
+
 - [#11](https://github.com/LaxarJS/ax-command-bar-widget/issues/11): Upgraded to LaxarJS v2.0
 
 
