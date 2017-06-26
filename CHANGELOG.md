@@ -2,6 +2,7 @@
 
 ## Last Changes
 
+- [#13](https://github.com/LaxarJS/laxar-command-bar-widget/issues/13): fixed webpack config and dependencies
 - [#12](https://github.com/LaxarJS/laxar-command-bar-widget/issues/12): renamed repository to match artifact
 
 
