@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LaxarJS/ax-command-bar-widget.git"
+    "url": "https://github.com/LaxarJS/laxar-command-bar-widget.git"
   },
   "scripts": {
     "prepublish": "npm run dist",
@@ -52,7 +52,7 @@
     "laxar-uikit": "^2.0.0"
   },
   "bugs": {
-    "url": "https://github.com/LaxarJS/ax-command-bar-widget/issues",
+    "url": "https://github.com/LaxarJS/laxar-command-bar-widget/issues",
     "email": "info@laxarjs.org"
   }
 }
