@@ -2,6 +2,9 @@
 
 ## Last Changes
 
+
+## v3.0.0-rc.0
+
 - [#14](https://github.com/LaxarJS/laxar-command-bar-widget/issues/14): fixed karma config and test case
 - [#13](https://github.com/LaxarJS/laxar-command-bar-widget/issues/13): fixed webpack config and dependencies
 - [#12](https://github.com/LaxarJS/laxar-command-bar-widget/issues/12): renamed repository to match artifact
