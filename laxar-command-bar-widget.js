@@ -112,7 +112,7 @@ function Controller( $scope, i18n, features, eventBus ) {
 
    $scope.handleButtonClicked = ({ classes, action, id }) => {
       const shouldCancel = classes[ BUTTON_CLASS_ACTIVE ] || Object.keys( BUTTON_STATE_TRIGGER_TO_CLASS_MAP )
-            .some( stateTrigger => classes[ BUTTON_STATE_TRIGGER_TO_CLASS_MAP[ stateTrigger ] ] );
+         .some( stateTrigger => classes[ BUTTON_STATE_TRIGGER_TO_CLASS_MAP[ stateTrigger ] ] );
       if( shouldCancel ) { return; }
 
       classes[ BUTTON_CLASS_ACTIVE ] = true;

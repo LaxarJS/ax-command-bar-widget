@@ -448,10 +448,13 @@ describe( 'An AxCommandBarWidget with buttons', () => {
             widgetScope.handleButtonClicked( nextButton );
          } );
 
-         it( 'resets the button state', () => {
+         it( 'resets the button state', done => {
             expect( nextButton.classes[ 'ax-active' ] ).toBe( true );
             widgetScope.$apply();
-            expect( nextButton.classes[ 'ax-active' ] ).toBe( false );
+            awaitGatherReplies().then( () => {
+               expect( nextButton.classes[ 'ax-active' ] ).toBe( false );
+               done();
+            } );
          } );
 
       } );
