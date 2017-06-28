@@ -2,6 +2,8 @@
 
 ## Last Changes
 
+- [#15](https://github.com/LaxarJS/laxar-command-bar-widget/issues/15): updated laxar-button-list-control version
+
 
 ## v3.0.0-rc.0
 

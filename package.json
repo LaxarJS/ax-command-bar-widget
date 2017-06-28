@@ -19,7 +19,7 @@
     "eslint": "eslint *.js spec"
   },
   "dependencies": {
-    "laxar-button-list-control": "2.0.0-alpha.0",
+    "laxar-button-list-control": "2.0.0-rc.0",
     "laxar-patterns": "^2.0.0-rc.2"
   },
   "devDependencies": {

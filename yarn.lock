@@ -2784,9 +2784,9 @@ laxar-angular-adapter@^2.0.0-rc.1:
   version "2.0.0-rc.1"
   resolved "https://registry.yarnpkg.com/laxar-angular-adapter/-/laxar-angular-adapter-2.0.0-rc.1.tgz#4274802eb0a354dc58195af3f54336395a678216"
 
-laxar-button-list-control@2.0.0-alpha.0:
-  version "2.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/laxar-button-list-control/-/laxar-button-list-control-2.0.0-alpha.0.tgz#e5a08ef562c75750676689595a938aecedc1a441"
+laxar-button-list-control@2.0.0-rc.0:
+  version "2.0.0-rc.0"
+  resolved "https://registry.yarnpkg.com/laxar-button-list-control/-/laxar-button-list-control-2.0.0-rc.0.tgz#649890b7851bf0900bb9a4623722881ae4d46e24"
 
 laxar-infrastructure@^2.0.0-rc.1:
   version "2.0.0-rc.1"
